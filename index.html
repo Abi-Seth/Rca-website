@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rwanda Coding Academy Website Design Project">
+    <meta name="keywords" content="RCA Website Project">
+    <meta name="author" content="Abijuru Seth">
+    <title>RCA | Rwanda Coding Academy</title>
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./imgs/logos/icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+
+<!-- Banner starts -->
+    <div id="banner">
+        <!-- navbar starts-->
+        <nav>
+            <div id="navbar">
+                <div id="navbar-info">
+                    <div id="info-left">
+                        <a href=""><span class="info-l">Contacts: &nbsp;</span></a>
+                        <a href=""><span class="info-l"><i class="fas fa-phone-square-alt"></i>&nbsp;+(250) 788-548-000</span></a>
+                        <a href=""><span class="info-l"><i class="fas fa-paper-plane"></i>&nbsp;info@rca.ac.rw</span></a>
+                        <a href=""><span class="info-l"><i class="fas fa-rss-square"></i>&nbsp;www.rca.ac.rw</span></a>
+                    </div>
+                    <div id="info-right">
+                        <a href=""><span class="info-r"><i class="fab fa-slack"></i></span></a>
+                        <a href=""><span class="info-r"><i class="fab fa-twitter"></i></span></a>
+                        <a href=""><span class="info-r"><i class="fab fa-facebook"></i></span></a>
+                    </div>
+                </div>
+                <div id="navbar-content">
+                    <div class="logo">
+                        <img src="./imgs/logos/logo.png" alt="logo">
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="./index.html" class="active">Home</a></li>
+                            <li><a href="./about.html">About us</a></li>
+                            <li><a href="./admission.html">Admission</a></li>
+                            <li><a href="./academics.html">Academics</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                        </ul> 
+                        <span id="toggle" onclick="toggle_menu()"><i class="fas fa-bars"></i></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- navbar ends-->
+        <div class="background"></div>
+
+        <div id="banner-content">
+            <div class="banner-left">
+                <div class="description">
+                    <h1>Welcome to</h1>
+                    <h3>RCA | Rwanda Coding Academy</h3>
+                    <h4>Leading Through Digital Innovation</h4>
+                    <p>A build modle programming in Nyabihu Rwanda to educate young born to code <br> Rwandans and build a future 
+                        advanced in technology and education to enhanse <br> cybre security    
+                    </p>
+                    <div class="icons">
+                        <span class="red"><i class="fas fa-question"></i></span>
+                        <span class="blue"><i class="fas fa-share-alt"></i></span>
+                        <span class="black"><i class="fas fa-search"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="banner-right">
+                <div class="img-container">
+                    <div class="line"></div>
+                    <img class="slide" src="./imgs/banners/image1.jpg" alt="image1">
+                    <img class="slide" src="./imgs/banners/image2.jpg" alt="image2">
+                    <img class="slide" src="./imgs/banners/image3.jpg" alt="image3">
+                    <img class="slide" src="./imgs/banners/image4.jpg" alt="image4">
+                    <img class="slide" src="./imgs/banners/image5.png" alt="image5">
+                    <img class="slide" src="./imgs/banners/image6.jpg" alt="image6">
+                    <img class="slide" src="./imgs/banners/image7.jpg" alt="image7">
+                    <img class="slide" src="./imgs/banners/image8.jpg" alt="image8">
+                    <img class="slide" src="./imgs/banners/image9.jpg" alt="image9">
+                    <img class="slide" src="./imgs/banners/image10.jpg" alt="image10">
+                    <img class="slide" src="./imgs/banners/image11.jpg" alt="image11">
+                    <img class="slide" src="./imgs/banners/image12.jpg" alt="image12">
+                    <img class="slide" src="./imgs/banners/image13.jpg" alt="image13">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="menu-toggled">
+        <div id="menu-toggled-content">
+            <div class="menu-title">
+                <h1>Quick Access</h1>
+            </div>
+            <div class="toggle-close">
+                <span id="toggle-close" onclick="toggle_menu_close()"><i class="fas fa-times-circle"></i></span>
+            </div>
+            <ul>
+                <li><a href="./index.html" class="active">Home</a></li>
+                <li><a href="./about.html">About us</a></li>
+                <li><a href="./admission.html">Admission</a></li>
+                <li><a href="./academics.html">Academics</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+            <div class="icons">
+                <a href=""><span class="info-r"><i class="fab fa-slack"></i></span></a>
+                <a href=""><span class="info-r"><i class="fab fa-twitter"></i></span></a>
+                <a href=""><span class="info-r"><i class="fab fa-facebook"></i></span></a>
+            </div>
+        </div>
+    </div>
+<!-- Banner ends-->
+<!-- body-content -->
+<div id="body-content">
+    <div class="belief">
+        <div class="col-1">
+            <h1>Short Belief</h1>
+            <p>This special model school incepted by the Government of Rwanda to teach Software Development,
+                Embedded Systems Programming, and Cyber-Security .It was established on Jan. 28th, 2019 by
+                the Gov’t of Rwanda. and was put under management of Rwanda Polytechnic (RP).
+                Rwanda Coding Academy was launched in Nyabihu District, as part of the efforts to
+                address in a more sustainable manner the severe shortage of high caliber software experts on Rwandan market.
+                <br><br>
+                The coding academy whose motto is: "born to code" targets students with an interest in coding and seek to 
+                pursue coding as a long time career. The $4.6 billion structure that hosts the coding academy and the
+                Nyabihu Technical and Vocational Education and Training School (VTET) was deliberately built away from the country's capital, Kigali.
+            </p>
+            <div class="col-icons">
+                <a href=""><span class="col-icons1">About Us &nbsp;<i class="fas fa-wifi"></i></span></a>
+                <a href=""><span class="col-icons2">Ask Question &nbsp;<i class="far fa-paper-plane"></i></span></a>
+            </div>
+        </div>
+        <div class="col-2">
+                <img src="./imgs/banners/comp.svg" alt="image">
+        </div>
+    </div>
+</div>
+<!-- body content ends -->
+<!-- footer -->
+<div id="footer">
+    <div class="footer" id="contact">
+        <div class="footer-sect-1">
+            <div class="foot-details">
+                <div class="foot-col" data-aos="zoom-in-right" data-aos-delay="200">
+                    <h1>About Us</h1>
+                    <h3>
+                        Students coming to Rwanda Coding Academy are selected by Rwanda Education Board througn 
+                        the normal process of student placement.
+                        Rwanda Coding Academy is listed amongst the schools students leaving Ordinary 
+                        Level can choose from, and after the publication of National Examen Results 
+                        Rwanda Education Board selects those who chose to study at rwanda Coding Academy and who qualified are qualified for that.
+                    </h3> 
+                </div>
+                <div class="foot-col" data-aos="zoom-in-right" data-aos-delay="400">
+                     <h4>Useful Links</h4>
+                     <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About us</a></li>
+                        <li><a href="./admission.html">Admission</a></li>
+                        <li><a href="./academics.html">Academics</a></li>
+                        <li><a href="javascript.void()" target="blank">Privacy policy</a></li>
+                     </ul>
+                </div>
+                <div class="foot-col" data-aos="zoom-in-left" data-aos-delay="400">
+                    <h4>Contact Us</h4>
+                    <p> KK 232 St, Kigali</p>
+                    <p>Kabeza, Kigali</p>
+                    <p> Republic of Rwanda</p> 
+                    <p><strong>Phone:</strong> +250 781 294 147</p>
+                    <p><strong>Email:</strong> abiheloaf@gmail.com</p>
+                </div>
+                <div class="foot-col" data-aos="zoom-in-left" data-aos-delay="200">
+                    <h4>My Newsletter</h4>
+                    <h3>If you feel like you wanna always get my updates then make 
+                        sure to subscribe below.</h3>
+                    <form action="https://www.elformo.com/forms/ff6db663-10b4-479e-8a59-ebc2134f137a" method="post">
+                        <input type="email" name="email" required placeholder="Enter email...">
+                        <input type="submit" value="Subscribe">
+                    </form>
+                    <div class="social-links">
+                        <a href="https://twitter.com/seth_abi" class="twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://web.facebook.com/abijuru.seth" class="facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/seth_abi" class="instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://abiheloaf@gmail.com" class="google-plus"><i class="fas fa-envelope"></i></a>
+                        <a href="https://www.slack.com" class="slack"><i class="fab fa-slack"></i></a>
+                        <a href="https://www.pinterest.com/" class="pinterest"><i class="fab fa-pinterest"></i></a>
+                        <a href="https://www.youtube.com/channel/UCVa85WM00ibbtAiXqQR-c9Q" class="youtube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://web.whatsapp.com/" class="instagram"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-sect-2">
+             <div class="copyright">
+                 &copy; Copyright 2020 <strong>RCA | Rwanda Coding Academy</strong>. All Rights Reserved <br>
+                  Designed by Abi-Seth
+             </div>
+        </div>
+    </div>
+</div>
+
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
